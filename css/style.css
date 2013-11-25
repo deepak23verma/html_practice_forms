@@ -1,0 +1,9 @@
+body {
+  background-image: url("../image/wood_03.jpg");
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  background-image: url("../image/wood_02.jpg");
+}
