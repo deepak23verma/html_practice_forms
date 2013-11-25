@@ -3,6 +3,7 @@ body {
   width: 100%;
   text-align: center;
   margin-right: 0px;
+  line-height: 1.4em;
 }
 
 .main {
@@ -22,6 +23,10 @@ legend {
 
 fieldset {
   margin: 0px auto;
+}
+
+form {
+  text-align: left;
 }
 
 /*fieldset .form_type {
