@@ -7,3 +7,18 @@ body {
 .main {
   background-image: url("../image/wood_02.jpg");
 }
+
+section {
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+legend {
+  text-align: left;
+}
+
+fieldset {
+  margin: 0px auto;
+}
