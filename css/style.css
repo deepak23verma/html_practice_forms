@@ -1,9 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+
 body {
   background-image: url("../image/wood_03.jpg");
   width: 100%;
   text-align: center;
   margin-right: 0px;
   line-height: 1.4em;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .main {
@@ -23,16 +26,12 @@ legend {
 
 fieldset {
   margin: 0px auto;
+  border-radius: 10px;
 }
 
 form {
   text-align: left;
 }
-
-/*fieldset .form_type {
-  float: left;
-  width: 400px;
-}*/
 
 .form_types {
   width: 100%;
