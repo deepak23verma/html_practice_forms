@@ -34,7 +34,7 @@ form {
   text-align: left;
 }
 
-input#password, input#email {
+input#password, input#email, input#url {
   height: 32px;
   margin-bottom: 5px;
 }
