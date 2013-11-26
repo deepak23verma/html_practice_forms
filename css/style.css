@@ -4,9 +4,10 @@ body {
   background-image: url("../image/wood_03.jpg");
   width: 100%;
   text-align: center;
-  margin-right: 0px;
+  margin: 0px;
   line-height: 1.7em;
   font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
 }
 
 .main {
@@ -31,6 +32,37 @@ fieldset {
 
 form {
   text-align: left;
+}
+
+input#password, input#email {
+  height: 32px;
+  margin-bottom: 5px;
+}
+
+input.submit {
+  display: block;
+}
+
+button{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button img {
+  float: left;
+  margin: 3px;
+}
+button p {
+  width: 148px;
+  font-size: 32px;
+  display: inline;
+  float: right;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 
 .form_types {

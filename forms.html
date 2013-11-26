@@ -16,30 +16,33 @@
             <fieldset class="form_type">
               <legend>User Login</legend>
               <form action="#">
-                <label>Email:</label>
-                  <input type="email", name"email" required="required" placeholder="name@forms.com">
+                <label for="email">Email</label>
+                  <input id="email" type="email", name"email" required="required" placeholder="name@forms.com" size="48">
                   <br>
-                <label>Password:</label>
-                  <input type="password", name="password" required="required">
+                  <label for="password">Password</label>
+                  <input id="password" type="password", name="password" required="required" size="48">
                   <br>
-                <input type="submit" value="Log Me In!!">
+                <input class="submit" type="submit" value="Log Me In!!">
               </form>
             </fieldset>
             <fieldset class="form_type">
               <legend>Textarea</legend>
               <form action="#">
-                <p>What are you thoughts?</p>
-                <textarea name="comments" id="" cols="30" rows="10"></textarea>
+                <label for="comments">What are you thoughts?</label>
+                <textarea id="comments" name="comments" id="" cols="30" rows="10"></textarea>
+                <br>
+                <input type="image" src="image/green_submit.jpeg" width="132" height="41">
               </form>
             </fieldset>
             <fieldset class="form_type">
               <legend>Radio Buttons</legend>
               <form action="#">
-                <p>What is your favourite city?<br>
+                <label>What is your favourite city?</label><br>
                   <input type="radio" name="favourite_city" value="Toronto" checked="checked">Toronto
                   <input type="radio" name="favourite_city" value="New York City">New York City
                   <input type="radio" name="favourite_city" value="Miami">Miami
-                </p>
+                  <br>
+                  <button><img src="image/RightArrow.png" alt="Right arrow to submit"><p>Submit</p></button>
               </form>
             </fieldset>
              <fieldset class="form_type">
